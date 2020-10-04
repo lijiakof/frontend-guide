@@ -1,5 +1,5 @@
 # 前端规范
-* [文件命名](./file.md)
+* [文件命名](./docs/file.md)
 * [Html](./docs/html.md)
 * [Css](./docs/css.md)
 * Less
