@@ -3,7 +3,7 @@
 * [Html](./docs/html.md)
 * [Css](./docs/css.md)
 * Less
-* JavaScript
+* [JavaScript](./docs/javascript)
 * TypeScript
 * Vue
 * React
