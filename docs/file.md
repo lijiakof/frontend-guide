@@ -7,12 +7,16 @@
 ```
 // good
 src
+ |-assets
+ |  |-default.less
+ |  |-reset-style.less
  |-pages
     |-home.vue
     |-user-center.vue
 
 // bad
 Src
+ |-assets
  |-pages
     |-Home.vue
     |-userCenter.vue
