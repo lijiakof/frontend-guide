@@ -9,5 +9,6 @@
 * [Vue](./docs/vue.md)
 * React
 * Git
+* [系统/项目架构](./docs/project.md)
 * [开发环境](./docs/dev-env.md)
 * [开发工具](./docs/dev-tools.md)
