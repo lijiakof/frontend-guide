@@ -11,24 +11,24 @@
 示例：
 ```
 .
-├──envs
-├── src
-│   ├── apis
-│   ├── assets
-│   ├── business
-│   ├── components
-│   ├── layouts
-│   ├── middleware
-│   ├── pages
-│   ├── plugins
-│   ├── stores
-│   ├── types
-│   └── widgets
-├── static
-├── .env
-├── package.json
-├── README.md
-└── yarn.lock
+├─envs
+├─ src
+│   ├─ apis
+│   ├─ assets
+│   ├─ business
+│   ├─ components
+│   ├─ layouts
+│   ├─ middleware
+│   ├─ pages
+│   ├─ plugins
+│   ├─ stores
+│   ├─ types
+│   └─ widgets
+├─ static
+├─ .env
+├─ package.json
+├─ README.md
+└─ yarn.lock
 ```
 
 * envs：不同环境的环境变量
