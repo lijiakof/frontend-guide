@@ -1,4 +1,5 @@
 # 前端规范
+* [快速学习](./docs/quick-start.md)
 * [文件命名](./docs/file.md)
 * [Html](./docs/html.md)
 * [Css](./docs/css.md)

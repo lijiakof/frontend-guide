@@ -34,3 +34,18 @@ src
 ```
 
 *建议* 文件夹名建议采用单词复数。
+
+示例：
+```
+// good
+src
+ |-components
+ |-pages
+ |-plugins
+
+// bad
+src
+ |-component
+ |-page
+ |-plugin
+```
