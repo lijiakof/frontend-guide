@@ -6,31 +6,34 @@
 示例：
 ```
 // good
-src
- |-assets
- |  |-default.less
- |  |-reset-style.less
- |-pages
-    |-home.vue
-    |-user-center.vue
+.
+└── src
+    ├── assets
+    │   ├── default.less
+    │   └── reset-style.less
+    └── pages
+        ├── home.vue
+        └── user-center.vue
 
 // bad
-Src
- |-assets
- |-pages
-    |-Home.vue
-    |-userCenter.vue
+.
+└── Src
+    ├── assets
+    └── pages
+        ├── Home.vue
+        └── userCenter.vue
 ```
 
 *强制* 文件有层次或者父子关系，用 `.` 分隔。
 
 示例：
 ```
-src
- |-pages
-    |-home.vue
-    |-home.banner.vue
-    |-home.footer.vue
+.
+└── src
+    └── pages
+        ├── home.vue
+        ├── home.banner.vue
+        └── home.footer.vue
 ```
 
 *建议* 文件夹名建议采用单词复数。
@@ -38,14 +41,16 @@ src
 示例：
 ```
 // good
-src
- |-components
- |-pages
- |-plugins
+.
+└── src
+    ├── components
+    ├── pages
+    └── plugins
 
 // bad
-src
- |-component
- |-page
- |-plugin
+.
+└── src
+    ├── component
+    ├── page
+    └── plugin
 ```
