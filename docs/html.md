@@ -32,17 +32,17 @@
 </div>
 ```
 
-*强制* `id` 必须保证页面唯一，单词按照`骆驼式命名`。
+*强制* `id` 必须保证页面唯一，单词必须全字母小写，单词以 `-` 分隔。
 
 示例：
 ```
 <!-- good -->
-<div id="helloWorld">
+<div id="hello-world">
   Hello world
 </div>
 
 <!-- bad -->
-<div class="hello-world">
+<div id="helloWorld">
   Hello world
 </div>
 ```
@@ -77,7 +77,6 @@
 *强制* 必须闭合标签，对于无需自闭合的标签需要用 `/>` 闭合。
 
 示例：
-
 ```
 <!-- good -->
 <input type="text" />
@@ -102,7 +101,7 @@
 <input type="text" vModel="name" />
 ```
 
-*强制* 属性值必须用双引号包围。
+*强制* 属性值必须用双引号。
 
 示例：
 ```
@@ -112,6 +111,20 @@
 <!-- bad -->
 <input type='text' />
 <input type=text />
+```
+
+*强制* 多条属性必须换行。
+
+示例：
+```
+<!-- good -->
+<input
+  type="text"
+  placeholder="请输入"
+  value="hello" />
+
+<!-- bad -->
+<input type="text" placeholder="请输入" value="hello" />
 ```
 
 ## head
