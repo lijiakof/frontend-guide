@@ -2,12 +2,12 @@
 * [文件命名](./docs/file.md)
 * [Html](./docs/html.md)
 * [Css](./docs/css.md)
-* Less
-* [JavaScript](./docs/javascript)
+* [Less](./docs/less.md)
+* [JavaScript](./docs/javascript.md)
 * TypeScript
 * Json
-* Vue
+* [Vue](./docs/vue.md)
 * React
 * Git
-* 开发环境
-* 开发工具
+* [开发环境](./docs/dev-env.md)
+* [开发工具](./docs/dev-tools.md)
