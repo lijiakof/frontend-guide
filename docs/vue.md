@@ -10,8 +10,8 @@
   * [Css](./css.md)
   * [Less](./less.md)
   * [JavaScript](./javascript.md)
-  * TypeScript
-  * Json
+  * [TypeScript](./typescript.md)
+  * [Json](./json.md)
 
 ```
 // home.vue
