@@ -134,7 +134,35 @@ input[type='text'] {
 ## 属性
 *强制* 属性定义必须另起一行。
 
+示例：
+```
+/* good */
+.title {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* bad */
+.title {
+  font-size: 20px; line-height: 1.5; color: #ccc;
+}
+```
+
 *强制* 属性定义后必须以分号结尾。
+
+示例：
+```
+/* good */
+.title {
+  font-size: 20px;
+}
+
+/* bad */
+.title {
+  font-size: 20px
+}
+```
 
 *建议* 属性在书写时，应按功能进行分组，并以 Formatting Model > Box Model > Typographic > Visual 的顺序书写，以提高代码的可读性。
 
@@ -143,10 +171,78 @@ input[type='text'] {
 * Typographic 文本排版，相关属性包括：font, line-height, text-align
 * Visual 视觉外观，相关属性包括：color, background, list-style, transform, animation
 
+示例：
+```
+.tool-bar {
+  /* formatting model */
+  position: absolute;
+  top: 50px;
+  right: 20px;
+
+  /* box model */
+  width: 40px;
+  padding: 40px;
+  border: 1px solid #ccc;
+
+  /* typographic */
+  font-size: 12px;
+
+  /* visual */
+  color: #333;
+  background-color: #fff;
+}
+```
+
 ## z-index
 
 ## 值与单位
 *强制* 文本内容必须用双引号包围。
+
 *强制* url() 函数中的路径不加引号。
+
+示例：
+```
+/* good */
+.banner {
+  background: url(/images/bg.png);
+  
+}
+
+/* bad */
+.banner {
+  background: url("/images/bg.png");
+  
+}
+```
+
 *强制* RGB颜色值必须使用十六进制记号形式 #rrggbb。不允许使用 rgb()。
+
+示例：
+```
+/* good */
+.title {
+  color: #000;
+  
+}
+
+/* bad */
+.title {
+  color: rgb(0, 0, 0);
+}
+```
+
 *强制* 颜色值不允许使用命名色值。
+
+示例：
+```
+/* good */
+.title {
+  color: #000;
+  
+}
+
+/* bad */
+.title {
+  color: black;
+}
+```
