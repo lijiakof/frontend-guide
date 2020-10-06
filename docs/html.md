@@ -9,7 +9,10 @@
 ```
 <body>
   <div>
-    name: <input type="text" name="name">
+    name:
+    <input
+      type="text"
+      name="name">
   </div>
 </body>
 ```
@@ -95,10 +98,14 @@
 示例：
 ```
 <!-- good -->
-<input type="text" v-model="name" />
+<input
+  type="text"
+  v-model="name" />
 
 <!-- bad -->
-<input type="text" vModel="name" />
+<input
+  type="text"
+  vModel="name" />
 ```
 
 *强制* 属性值必须用双引号。
@@ -143,7 +150,9 @@
 示例：
 ```
 <head>
-  <link rel="shortcut icon" href="path/to/favicon.ico">
+  <link
+    rel="shortcut icon"
+    href="path/to/favicon.ico">
 </head>
 ```
 
