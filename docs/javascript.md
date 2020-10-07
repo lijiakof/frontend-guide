@@ -244,19 +244,95 @@ let name = "jay";
 
 *建议* 使用对象字面量 `{}` 创建新 `Object`。
 
+示例：
+```
+// good
+let obj = { };
+
+// bad
+let obj = new Object();
+```
+
 *建议* 属性访问时，尽量使用 `.`。
+
+示例：
+```
+// good
+let name = obj.name;
+
+// bad
+let name = obj['name'];
+```
 
 *建议* 使用数组字面量 `[]` 创建新数组
 
+示例：
+```
+// good
+let array = [];
+
+// bad
+let array = new Array();
+```
+
 *建议* 一个函数的参数控制在 `6` 个以内。
+
+示例：
+```
+// good
+function fun (name, title) {
+  // ...
+}
+
+// bad
+function fun (name, title, c, d, e, f, g) {
+  // ...
+}
+```
 
 *建议* 通过 `options` 参数传递非数据输入型参数。
 
+示例：
+```
+// good
+function fun (name, title, url) {
+  // ...
+}
+
+// bad
+function fun (name, options) {
+  if (options.title) {
+    // ...
+  }
+
+  if (options.url) {
+    // ...
+  }
+}
+```
+
 *强制* 不允许使用直接 `eval` 函数。
+
+示例：
+```
+// bad
+let str = 'console.log("hello world")';
+eval(str);
+```
 
 *建议* 尽量不要使用 `with`。
 
 *建议* 减少 `delete` 的使用。
+
+示例：
+```
+// bad
+let obj = {
+  name: '',
+  title: ''
+};
+delete obj.name;
+```
 
 ## 面向对象
 TODO

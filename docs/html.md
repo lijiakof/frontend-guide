@@ -9,7 +9,7 @@
 ```
 <body>
   <div>
-    name:
+    <label>name: </label>
     <input
       type="text"
       name="name">

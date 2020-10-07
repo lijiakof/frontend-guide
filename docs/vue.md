@@ -12,6 +12,7 @@
   * [JavaScript](./javascript.md)
   * [TypeScript](./typescript.md)
   * [Json](./json.md)
+* *建议* 尽量不要操作 `DOM`。
 
 ```
 // home.vue
