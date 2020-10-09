@@ -14,7 +14,7 @@
   * [Json](./json.md)
 * *建议* 尽量不要操作 `DOM`。
 
-```
+```vue
 // home.vue
 <template>
   <div class="home">

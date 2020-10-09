@@ -6,7 +6,7 @@
 *强制* 使用 `2` 个`空格`为一个缩进层级。
 
 示例：
-```
+```javascript
 function fun () {
   console.log('Hello world!');
 }
@@ -20,7 +20,7 @@ function fun () {
 *强制* `二元运算符`两侧必须有一个空格，`一元运算符`与操作对象之间不允许有空格。
 
 示例：
-```
+```javascript
 let a = 1;
 a++;
 a = b + c;
@@ -29,7 +29,7 @@ a = b + c;
 *强制* 用作代码块起始的左 `{` 前必须有一个空格。
 
 示例：
-```
+```javascript
 // good
 if (a) {
   // ...
@@ -50,7 +50,7 @@ for (i = 0; i < 10; i++){
 *强制* 在对象创建时，属性中的 `:` 之后必须有空格，`:` 之前不允许有空格。
 
 示例：
-```
+```javascript
 // good
 let obj = {
   name: 'jay',
@@ -70,7 +70,7 @@ let obj = {
 *强制* `,` 和 `;` 前不允许有空格。如果不位于行尾，`,` 和 `;` 后必须跟一个空格。
 
 示例：
-```
+```javascript
 // good
 function fn (name, title) {
   // ...
@@ -91,21 +91,21 @@ fn('jay','Hello');
 *强制* 常量全部大写，单词以 `_` 分隔。
 
 示例：
-```
+```javascript
 const USER_NAME = 'jay';
 ```
 
 *强制* 变量、函数、参数、属性采用`小驼峰`命名法。
 
 示例：
-```
+```javascript
 let userName = 'jay';
 ```
 
 *强制* 类名采用`大驼峰`命名法。
 
 示例：
-```
+```javascript
 class User {
   // ...
 }
@@ -129,7 +129,7 @@ class User {
 * 参考：https://jsdoc.app/ https://github.com/jsdoc/jsdoc
 
 示例：
-```
+```javascript
 /**
  * Customer
  * https://github.com/thetripio/tripio-js/blob/master/src/room-night/customer.js
@@ -172,7 +172,7 @@ export default class Customer {
 *建议* 使用 `let` 声明变量。
 
 示例：
-```
+```javascript
 // good
 let name = 'jay';
 
@@ -183,7 +183,7 @@ var name = 'jay';
 *强制* 每个 `let` 或者 `var` 只能声明一个变量。
 
 示例：
-```
+```javascript
 // good
 let name = 'jay';
 let title = 'hello';
@@ -195,7 +195,7 @@ var name = 'jay', title = 'hello';
 *强制* 变量必须`即用即声明`，避免在函数或其它形式的代码块起始位置统一声明所有变量。
 
 示例：
-```
+```javascript
 // good
 let array = [];
 
@@ -215,7 +215,7 @@ for (i = 0; i < 10; i++) {
 *强制* 使用类型严格的 `===`。仅当判断 `null` 或 `undefined` 时，允许使用 `==`。
 
 示例：
-```
+```javascript
 // good
 if (index === 10) {
   // ...
@@ -234,7 +234,7 @@ if (index == 10) {
 *强制* 字符串使用单引号 `''`
 
 示例：
-```
+```javascript
 // good
 let name = 'jay';
 
@@ -245,7 +245,7 @@ let name = "jay";
 *建议* 使用对象字面量 `{}` 创建新 `Object`。
 
 示例：
-```
+```javascript
 // good
 let obj = { };
 
@@ -256,7 +256,7 @@ let obj = new Object();
 *建议* 属性访问时，尽量使用 `.`。
 
 示例：
-```
+```javascript
 // good
 let name = obj.name;
 
@@ -267,7 +267,7 @@ let name = obj['name'];
 *建议* 使用数组字面量 `[]` 创建新数组
 
 示例：
-```
+```javascript
 // good
 let array = [];
 
@@ -278,7 +278,7 @@ let array = new Array();
 *建议* 一个函数的参数控制在 `6` 个以内。
 
 示例：
-```
+```javascript
 // good
 function fun (name, title) {
   // ...
@@ -293,7 +293,7 @@ function fun (name, title, c, d, e, f, g) {
 *建议* 通过 `options` 参数传递非数据输入型参数。
 
 示例：
-```
+```javascript
 // good
 function fun (name, title, url) {
   // ...
@@ -314,7 +314,7 @@ function fun (name, options) {
 *强制* 不允许使用直接 `eval` 函数。
 
 示例：
-```
+```javascript
 // bad
 let str = 'console.log("hello world")';
 eval(str);
@@ -325,7 +325,7 @@ eval(str);
 *建议* 减少 `delete` 的使用。
 
 示例：
-```
+```javascript
 // bad
 let obj = {
   name: '',

@@ -6,7 +6,7 @@
 *强制* 使用 `2` 个`空格`为一个缩进层级。
 
 示例：
-```
+```css
 .title {
   font-size: 20px;
   color: #ccc;
@@ -17,7 +17,7 @@
 *强制* `选择器` 与 `{` 之间必须包含空格。
 
 示例：
-```
+```css
 /* good */
 .title {
   font-size: 20px;
@@ -32,7 +32,7 @@
 *强制* `属性名` 与之后的 `:` 之间不允许包含空格，`:` 与 `属性值` 之间必须包含空格。
 
 示例：
-```
+```css
 /* good */
 .title {
   font-size: 20px;
@@ -50,7 +50,7 @@
 *强制* 列表型属性值书写在单行时，`,` 后必须跟一个空格。
 
 示例：
-```
+```css
 /* good */
 .title {
   font-family: Arial, sans-serif;
@@ -66,7 +66,7 @@
 *强制* 样式名单词必须全字母小写，单词以 `-` 分隔。
 
 示例：
-```
+```css
 /* good */
 .nav-bar {
   font-size: 24px;
@@ -88,7 +88,7 @@ TODO:
 *强制* 当一个样式规则中包含多个选择器时，每个选择器声明必须独占一行。
 
 示例：
-```
+```css
 /* good */
 body,
 html,
@@ -105,7 +105,7 @@ body, html, page {
 *强制* `>`、`+`、`~` 选择器的两边各保留一个空格。
 
 示例：
-```
+```css
 /* good */
 body > page {
   font-size: 12px;
@@ -120,7 +120,7 @@ body>page {
 *强制* 属性选择器中的值必须使用`双引号`。
 
 示例：
-```
+```css
 /* good */
 input[type="text"] {
   font-size: 12px;
@@ -136,7 +136,7 @@ input[type='text'] {
 *强制* 属性定义必须另起一行。
 
 示例：
-```
+```css
 /* good */
 .title {
   font-size: 20px;
@@ -153,7 +153,7 @@ input[type='text'] {
 *强制* 属性定义后必须以分号结尾。
 
 示例：
-```
+```css
 /* good */
 .title {
   font-size: 20px;
@@ -173,7 +173,7 @@ input[type='text'] {
 * Visual 视觉外观，相关属性包括：color, background, list-style, transform, animation
 
 示例：
-```
+```css
 .tool-bar {
   /* formatting model */
   position: absolute;
@@ -203,7 +203,7 @@ TODO:
 *强制* url() 函数中的路径不加引号。
 
 示例：
-```
+```css
 /* good */
 .banner {
   background: url(/images/bg.png);
@@ -220,7 +220,7 @@ TODO:
 *强制* RGB颜色值必须使用十六进制记号形式 #rrggbb。不允许使用 rgb()。
 
 示例：
-```
+```css
 /* good */
 .title {
   color: #000;
@@ -236,7 +236,7 @@ TODO:
 *强制* 颜色值不允许使用命名色值。
 
 示例：
-```
+```css
 /* good */
 .title {
   color: #000;

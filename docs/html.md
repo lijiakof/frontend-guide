@@ -6,7 +6,7 @@
 *强制* 使用 `2` 个`空格`为一个缩进层级。
 
 示例：
-```
+```html
 <body>
   <div>
     <label>name: </label>
@@ -23,7 +23,7 @@
 *强制* `class` 样式名单词必须全字母小写，单词以 `-` 分隔。
 
 示例：
-```
+```html
 <!-- good -->
 <div class="hello-world">
   Hello world
@@ -38,7 +38,7 @@
 *强制* `id` 必须保证页面唯一，单词必须全字母小写，单词以 `-` 分隔。
 
 示例：
-```
+```html
 <!-- good -->
 <div id="hello-world">
   Hello world
@@ -54,7 +54,7 @@
 *强制* 必须独占一行。
 
 示例：
-```
+```html
 <!-- good -->
 <input type="text" />
 
@@ -65,7 +65,7 @@
 *强制* 标签名必须使用小写字母。
 
 示例：
-```
+```html
 <!-- good -->
 <div>
   Hello world
@@ -80,7 +80,7 @@
 *强制* 必须闭合标签，对于无需自闭合的标签需要用 `/>` 闭合。
 
 示例：
-```
+```html
 <!-- good -->
 <input type="text" />
 <div>hello</div>
@@ -96,7 +96,7 @@
 *强制* 属性名必须使用小写字母，单词以 `-` 分隔。
 
 示例：
-```
+```html
 <!-- good -->
 <input
   type="text"
@@ -111,7 +111,7 @@
 *强制* 属性值必须用双引号。
 
 示例：
-```
+```html
 <!-- good -->
 <input type="text" />
 
@@ -123,7 +123,7 @@
 *强制* 多条属性必须换行。
 
 示例：
-```
+```html
 <!-- good -->
 <input
   type="text"
@@ -138,7 +138,7 @@
 *强制* 页面必须包含 title 标签声明标题。
 
 示例：
-```
+```html
 <head>
   <meta charset="UTF-8">
   <title>标题</title>
@@ -148,7 +148,7 @@
 *强制* 保证 favicon 可访问。
 
 示例：
-```
+```html
 <head>
   <link
     rel="shortcut icon"
