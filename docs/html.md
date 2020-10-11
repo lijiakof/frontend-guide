@@ -20,12 +20,12 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <div class="hello-world">
   Hello world
 </div>
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <div class="helloworld">
   Hello world
 </div>
@@ -35,12 +35,12 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <div id="hello-world">
   Hello world
 </div>
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <div id="helloWorld">
   Hello world
 </div>
@@ -50,22 +50,22 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <input type="text" />
 
-<input type='text' /> <!-- bad -->
+<input type='text' /> <!-- 👎🏻 bad -->
 ```
 
 ### **✊🏻强制** 标签名必须使用小写字母。
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <div>
   Hello world
 </div>
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <DIV>
   Hello world
 </DIV>
@@ -75,11 +75,11 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <input type="text" />
 <div>hello</div>
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <input type="text">
 <div>hello
 ```
@@ -90,12 +90,12 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <input
   type="text"
   v-model="name" />
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <input
   type="text"
   vModel="name" />
@@ -105,10 +105,10 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <input type="text" />
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <input type='text' />
 <input type=text />
 ```
@@ -117,13 +117,13 @@
 
 示例：
 ```html
-<!-- good -->
+<!-- 👍🏻 good -->
 <input
   type="text"
   placeholder="请输入"
   value="hello" />
 
-<!-- bad -->
+<!-- 👎🏻 bad -->
 <input type="text" placeholder="请输入" value="hello" />
 ```
 
