@@ -14,12 +14,12 @@
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   font-size: 20px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title{
   font-size: 20px;
 }
@@ -29,12 +29,12 @@
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   font-size: 20px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title {
   font-size :20px;
 }
@@ -47,12 +47,12 @@
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   font-family: Arial, sans-serif;
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title {
   font-family: Arial,sans-serif;
 }
@@ -62,12 +62,12 @@
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .nav-bar {
   font-size: 24px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 .navBar {
   font-size: 24px;
 }
@@ -83,14 +83,14 @@ TODO:
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 body,
 html,
 page {
   font-size: 12px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 body, html, page {
   font-size: 12px;
 }
@@ -100,12 +100,12 @@ body, html, page {
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 body > page {
   font-size: 12px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 body>page {
   font-size: 12px;
 }
@@ -115,12 +115,12 @@ body>page {
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 input[type="text"] {
   font-size: 12px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 input[type='text'] {
   font-size: 12px;
 }
@@ -130,14 +130,14 @@ input[type='text'] {
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   font-size: 20px;
   line-height: 1.5;
   color: #ccc;
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title {
   font-size: 20px; line-height: 1.5; color: #ccc;
 }
@@ -147,12 +147,12 @@ input[type='text'] {
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   font-size: 20px;
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title {
   font-size: 20px
 }
@@ -196,13 +196,13 @@ TODO:
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .banner {
   background: url(/images/bg.png);
   
 }
 
-/* bad */
+/* 👎🏻 bad */
 .banner {
   background: url("/images/bg.png");
   
@@ -213,13 +213,13 @@ TODO:
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   color: #000;
   
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title {
   color: rgb(0, 0, 0);
 }
@@ -229,13 +229,13 @@ TODO:
 
 示例：
 ```css
-/* good */
+/* 👍🏻 good */
 .title {
   color: #000;
   
 }
 
-/* bad */
+/* 👎🏻 bad */
 .title {
   color: black;
 }
