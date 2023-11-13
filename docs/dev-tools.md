@@ -3,11 +3,12 @@
 ## IDE
 * Visual Studio Code
   * https://code.visualstudio.com/
-  * plugins
-    * Vetur
-    * TSLint
-    * DotENV
+  * 插件
     * Terminal
+    * Volar(Vue Language Features)
+    * GitLens
+    * DotENV
+    * TSLint
 * WebStorm
   * https://www.jetbrains.com/webstorm/
 * Sublime
@@ -21,14 +22,31 @@
 * Termius
   * https://termius.com/
 
-## 调试
+## 开发环境
+* Node.js
+* Yarn
+* Nvm
+  * nvm use
+* Git
+
+## 调试工具
 * Chrome
-  * Vue.js devtools
-    * https://github.com/vuejs/vue-devtools/
+  * https://www.google.com/chrome/
+  * 插件
+    * Vue Devtools
+      * https://github.com/vuejs/vue-devtools/
+    * Whistle
+    * Performance-Analyser
+* Whistle
+* SwitchHosts
+* Proxyman
 * Postman
   * https://www.postman.com/
 
-## 数据库缓存
+## 数据库/缓存工具
 * Redis Desktop Manager
 * Robo 3T
 * ElasticSearch Head
+
+## 设计工具
+* Excalidraw
