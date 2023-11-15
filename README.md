@@ -12,14 +12,20 @@
 * HTML
 * CSS
 * JavaScript
+  * 运行机制
+  * 垃圾回收机制
+  * Event Loop
 
 ## 前端框架
-* Vue
-* React
+* Vue vs React
+* MVVM 原理
+  * Diff 原理
 * 微信小程序
+* 微前端
+  * 应用隔离原理
+  * 样式隔离方案
 * TDesign/AntDesign
 * Element-UI
-* MicroApp
 
 ## 系统架构
 
