@@ -9,6 +9,7 @@
     * GitLens
     * DotENV
     * TSLint
+    * TONGYI Lingma
 * WebStorm
   * https://www.jetbrains.com/webstorm/
 * Sublime
